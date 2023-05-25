@@ -1,0 +1,21 @@
+{
+  "name": "events",
+  "version": "1.0.0",
+  "description": "API events",
+  "main": "index.js",
+  "author": "indica",
+  "license": "MIT",
+  "scripts": {
+    "start": "npx nodemon src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0 || ^8.2.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "nodemon": "^2.0.20"
+  }
+}
